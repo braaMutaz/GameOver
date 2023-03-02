@@ -1,0 +1,159 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../img/wraper.png);
+    background-position: center center;
+   
+    background-color: rgb(41, 41, 41);
+}
+
+.nav-head
+{
+    border-radius: 30px 30px 30px 30px !important;
+    background-color: rgb(58, 73, 123) !important;
+}
+.prg
+{
+    transform: translate(1px ,5px) !important;
+}
+p
+{
+    font-size: 0.9rem !important;
+}
+.navbar-nav a
+{
+color: white ;
+}
+.vip
+{
+    color: rgb(15, 15, 107) !important;
+}
+
+p
+{
+ font-size:1rem;   
+}
+.items
+{
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+.trans p
+{
+    transform: translateY(6px);
+}
+.wow
+{
+    height: 7rem;
+    overflow: auto;
+    
+}
+
+
+
+.loading {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background: #191a1a;
+  text-align: center;
+ 
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Arial Narrow’, sans-serif;
+  font-weight: 100;
+  font-size: 1.1em;
+  color: #a3e1f0;
+  transform: translateY(-500%);
+}
+
+span {
+  position: relative;
+  top: 0.63em;  
+  display: inline-block;
+  text-transform: uppercase;  
+  opacity: 0;
+  transform: rotateX(-90deg);
+  
+}
+
+.let1 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.1;
+}
+
+.let2 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.let3 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.let4 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.4s;
+
+}
+
+.let5 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.let6 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+.let7 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 0.7s;
+}
+
+@keyframes drop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    80% {
+        opacity: 1;
+        top: 3.78em;
+        transform: rotateX(-360deg);
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        top: 6.94em
+    }
+}   
+.detgame
+{
+    position: relative;
+}
+.lift
+{
+position: absolute;
+top: 5rem;
+right: 5rem;
+cursor: pointer;
+}
